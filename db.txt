@@ -1,0 +1,9 @@
+create table member_table
+(유저 ID id varchar2(50)NOTNULL,
+유저 NAME name varchar2(50)NOTNULL,
+유저 PW pw varchar2(50)NOTNULL,
+유저 TEL tel varchar2(50),
+유저 EMAIL email varchar2(50),
+유저 ADDRESS address varchar2(100),
+constraint member_table_id_pk primary key(id)
+);

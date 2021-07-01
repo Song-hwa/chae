@@ -1,0 +1,6 @@
+
+
+create table notice_table
+( notice varchar2(100),
+ even varchar2(100),
+ qna varchar2(100));

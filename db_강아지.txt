@@ -1,0 +1,18 @@
+
+create table dog_table
+(dg_id varchar2(50)NOTNULL, 
+ dg_cty varchar2(50),
+ dg_cm varchar2(50),
+ dg_kg varchar2(50),
+ dg_wei varchar2(50),
+ dg_fac varchar2(50),
+ dg_cha varchar2(50),
+ dg_chu varchar2(50),
+ dg-med varchar2(50),
+ dg_clr varchar2(50),
+ dg_grp varchar2(50),
+ dg_chi varchar2(50),
+ dg_mo varchar2(50),
+ dg_hom varchar2(50),
+ dg_oi varchar2(50),
+constraint dog_table_dg_id_pk primary key(dg_id));
