@@ -1,0 +1,58 @@
+body{
+    font-family: '�뿬湲곗뼱�븣 �옒�궃泥�';
+    }
+    a:active{
+        text-decoration: none;
+    }	
+    .menu__menu{
+        padding: 11px 0px 13px;
+        text-align: center;
+        list-style: none;
+        line-height: 1cm;
+        font-size: 0.9em;
+        font-weight: normal;
+        opacity: 0.5;
+        
+    }
+    .menu__menu>li a:hover{
+    cursor: pointer;
+    opacity: 0.85;
+    }
+    .menu__menu>li{
+    position: relative;
+    text-align: center;
+    }
+    enu--alonso .menu__list>li{
+    position:relative;
+    }
+    .menu--alonso .menu__list>li:hover .menu__menu{
+    display: block;
+    }
+    .menu--alonso .menu__list .menu__menu{
+    display: none;
+    }
+    div{
+        margin-left: 340px;
+        margin-right: 340px;
+    }
+    hr{
+        color: black;
+    }
+    #vote_link{
+        width: 130px;
+        height: auto;
+        background-color: rgb(242, 223, 246);
+        border-radius: 65px;
+    }
+    #vote_link:hover{
+        opacity: 0.8; 
+    }
+    ul{
+        background-color: #f1f3f4;
+        border-style: hidden;
+        border-radius: 20px;
+    }
+    .section__title{
+        font-size: 2.4em;
+        height: 0.1em;
+    }

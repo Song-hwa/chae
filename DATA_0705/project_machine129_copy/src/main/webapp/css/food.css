@@ -1,0 +1,123 @@
+.nav {
+	height: 70px;
+	border-bottom: 1px solid gainsboro;
+	position: relative;
+	align-items: center;
+}
+
+.nav-right-items {
+	display: flex;
+	margin: auto;
+}
+
+.nav-list {
+	text-align: right;
+	margin-right: 100px;
+}
+
+.nav-item {
+	margin: 10px;
+	display: inline;
+}
+
+.title {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	color: crimson;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: darkgrey;
+}
+
+.main {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.price-items {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border: 1px solid gainsboro;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.prices {
+	display: flex;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.prices-btn {
+	margin-top: auto;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	border-radius: .5rem;
+	background-color: transparent;
+	color: #007bff;
+	border-color: #007bff;
+}
+
+.price-items>img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.search {
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+
+span {
+	font-size: 30px;
+}
+
+.prices-btn {
+	margin-top: 15px;
+}
+
+.main h2 {
+	
+}
+
+div.test-title {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.tmi {
+	text-align: left;
+}
+
+.tmi>span {
+	color: crimson;
+	font-size: 50px;
+}
+
+.tmi>p {
+	font-size: 20px;
+	margin-bottom: auto;
+}
+
+.tmi>img {
+	position: relative;
+	left: 500px;
+	bottom: 200px;
+}
+
+.test-title>h2>a {
+	color: darkgrey;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/joinpage.css" />
+</head>
+<body>
+
+    <form action="">
+            <div id="JoinBox"align="center">
+                <container>
+                    
+                    <div><h1><a href="index.html">회원가입</a></h1></div>
+
+                    <h4>아이디</h4>
+                    <input type="text"name="id"placeholder="아이디"class="input">
+                    <br>
+                    <h4>비밀번호</h4>
+                    <input type="password"name="pw"placeholder="비밀번호"class="input">
+                    <h4>이름</h4>
+                    <input type="text"name="name"placeholder="이름"class="input">
+                    <br>
+                    <h4>전화번호</h4>
+                    <input type="text"name="tel"placeholder="전화번호"class="input">
+                    <br>
+                    <h4>성별</h4>
+                    <select name="gender" class="input"style="width: 360px;height:35px">
+                        <option value selected>성별</option>
+                        <option value="M">남자</option>
+                        <option value="F">여자</option>
+                    </select>
+                    <!-- <input type="text"name="gender"placeholder="성별"class="input"> -->
+                    <br>
+                    <input type="submit" value="가입하기" class="join_btn">
+                    </div>
+            </container>
+    </form>
+    
+</body>
+</html>
