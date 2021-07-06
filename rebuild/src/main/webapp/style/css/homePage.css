@@ -1,0 +1,25 @@
+@charset "EUC-KR";
+#header.alt {
+	height: 1000px;
+}
+
+#intro {
+	padding: 4em 0em 4em 0em; 
+	background-color: transparent;
+	border-radius: 4px;
+}
+
+#wrapper{
+	padding-top: 0;
+}
+
+.title_sub{
+	display: -webkit-flex;
+	z-index: 1;
+	text-align: center;
+}
+
+.title_sub>h4 {
+	width: 10em;
+	opacity: 0.7;
+}
