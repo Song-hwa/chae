@@ -1,0 +1,41 @@
+
+        
+        
+        fieldset{
+        	display: initial;
+            width: 80%;
+            height: 100%;
+            align-content: center;
+            background-color:rgb(50, 50, 50);
+            border: 0cm;
+
+        }
+        table{
+            margin: auto;
+            margin-top: 80px;
+            font-size: 15px;
+            font-family: '고딕체';
+            font-weight: 400;
+        }
+        h1{
+            font-family: "여기어때 잘난체";
+        }
+        td{
+            padding-bottom: 15px;
+            padding: 15px;
+        }
+        /* 전송버튼 디자인 */
+        .submit{
+            width: 15em;
+            height: 3em;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+        /* 설문완료 정중앙 */
+        div{
+            text-align: center;
+        }
+        /* 설문완료 클릭시 반투명 효과 */
+        div:hover{
+            opacity: 0.8; 
+        }

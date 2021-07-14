@@ -1,0 +1,30 @@
+body{
+            
+    height: auto;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
+img{
+    display: inline;
+}
+.title{
+    font-family: '여기어때 잘난체';
+    font-size: 35px;
+}
+h1{
+    margin-bottom: 250px
+}
+.div2{
+    display: flex;
+}
+a{
+    margin: auto;
+}

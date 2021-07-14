@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.div1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+    margin:auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border: none;
+    margin: auto;
+}
+.div2, .div3{
+text-align: center;   
+}
+.div3{
+    display: block;
+}
+
+</style>
+<body>
+    <div border=1px solid black class="div1">
+        <div class="div2">
+            <img src="img/test-dog.jpg">
+        </div>
+        <ul></ul>
+            <div class="div3"> 
+                <img src="img/test-dog.jpg">
+                <img src="img/test-dog.jpg">
+            </div>
+        </ul>
+    </div>
+</body>
+</html>
