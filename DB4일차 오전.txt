@@ -1,0 +1,123 @@
+[8장]
+DML문
+
+1. insert
+ex)
+insert into table_name (columnA, columnB, columnC)
+values (dataA,dataB,'dataC')
+
+1-1. insert의 특징
+행단위작업
+꼭 순서 개수 타입 길이를 1:1로 입력해야한다.
+PK로 지정되었거나 FK로 다른 테이블에서 참조받은 컬럼에 중복된 값을 추가하려하면 에러가 난다.
+
+1-2. null값을 추가할 때
+ (1)컬럼을 지정했을때
+지정한 컬럼순서대로 데이터를 추가하고 다른 컬럼은 null값으로 입력됨
+ (2)컬럼을 지정하지 않았을때
+모든 컬럼에 대해 각각 널값을 넣어 줘야 한다.
+
+2. update
+ex)
+update table_name
+set column = 70
+where column = 113;
+열단위 작업
+ - 조건(열)을 주지않으면 컬럼에 있는 모든 데이터가 70으로 바뀐다.
+
+
+3. delete
+ex)
+delete from table_name
+where column = valueA; 
+table_name의 column에 valueA를 삭제
+행단위작업
+
+
+4. 트랜잭션
+(DDL과 DCL과 달리 추가 삭제 수정 모든 행위를 합쳐서 한번의 트랜잭션으로 한다.)
+진행중인 트랜젝션이 있다면 병렬제어에 의해 실행대기한다.
+
+4-1. deadlock
+A와 B가 서로의 트랜젝션에 접근중이라 둘다 대기상태에 빠진 상황
+
+
+DESC:describe
+테이블의 정보를 불러오는 예약어
+------------------------------------------------------------------------------------------------------------
+[9장]
+DDL문
+테이블의 생성과 관리
+
+테이블 이름 및 컬럼 이름
+ (1).문자로 시작
+ (2).30자이내로 작성되어야 한다
+ (3).A-Z,a-z,0-9,_,$,#만 포함되어야한다
+ 
+1. create문
+ex)
+create table table_name
+	(columnA number(3),
+	columnB varchar2(13),
+	columnC varchar2(7)
+	);
+
+데이터의 유형
+(1)char 고정된 사이즈의 문자데이터 size <=4000
+성능 ↑공간활용도↓
+(2)varchar2 가변 사이즈의 문자테이터 size <=2000
+성능 ↓공간활용도↑
+(3)number(p,s) 가변 길이 숫자 데이터
+(4)date 날짜 및 시간
+사용되는 국가의 날짜계산법으로 포멧된다
+한국: 그리니치 표준시 +8시
+(4-1)timestamp
+초까지 나타내는 시간데이터
+
+2. alter 문
+2-1. 추가
+ex)
+add (columnA number(3),
+	columnB varchar2(13),
+	columnC varchar2(7)
+	);
+2-2. 변경
+ex)
+alter table table_name
+modify  (columnA varchar2(13)
+	);
+2-3. 삭제 - DDL문이라 auto-commit이 일어나기 때문에 신중하게 사용!
+데이터 뿐만이 아니라 데이터를 저장했던 공간구조도 함께 삭제된다.
+ex)
+alter table table_name
+drop	(columnA);
+
+2-4 사용보류 - alter drop의 위험성 때문에 나온 명령어
+ex)
+alter table table_name
+set unused (columnA);
+
+2-5 사용보류데이터 삭제
+ex)
+alter table table_name
+drop unused columns;
+
+3. drop문
+drop table table_name;
+
+4. truncate문
+truncate table table_name;
+
+5. rename문
+rename table table_name to new_table_name;
+
+6. comment문
+테이블에 주석추가
+comment on table table_name
+is 'hellow world';
+
+create_date date  default sysdate  
+
+
+
+
