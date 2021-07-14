@@ -1,0 +1,12 @@
+drop table member CASCADE CONSTRAINTS;
+
+create table MEMBER
+(MEMBER_ID number(10)NOTNULL
+LAST_NAME varchar(2) NOTNULL
+FIRST_NAME varchar(2),
+ADDRESS varchar(2),
+CITY varchar(2),
+PHONE varchaR(2),
+JOIN_DATE DATE NOTNULL
+constraint MEMBER_MEMBER_ID_pk primary key(MEMBER_ID) 
+);
