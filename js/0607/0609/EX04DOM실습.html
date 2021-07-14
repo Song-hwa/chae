@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "div1"></div>
+    <button onclick = "H1()">h1 태그생성  </button>
+    <button onclick="A()">a태그생성</button>
+    <button onclick="UL()">ul태그생성</button>
+
+
+    <script>
+        //H1기능 실행했을때 DIV태그에 내용으로 <h1>글자</h1>
+        function H1(){
+            let div = document.getElementsByClassName("div1");
+            div.innerHTML += "<h1>태그생성</h1>"
+
+        }
+        function A(){
+            let div = document.getElementById("div1");
+            div.innerHTML += "<a href = '#'>a태그생성</a>"
+
+        }
+        function UL()
+             let div = document.getElementById("div1");
+             div.innerHTML += "<ul><li>html</li><li>css</li><li>js</li>
+                {
+
+
+        }
+    </script>
+</body>
+</html>

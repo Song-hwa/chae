@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body id = "body1">
+    <a href="#">Front-End</a>
+    <br><br>
+    <button id = "btn1">디자인</button> <button id = "btn2">디폴트</button>
+    <ul>
+        
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+    <H1>JavaScript</H1>
+    <P>글자쓰는 공간!</P>
+
+    <!--btn1 이라는 ID를 가진 버튼을 클릭했을 때! 배경색은 노란색, 글자색은 파란색 변경!-->
+
+    <script>
+        //자바스크립트 코드를 작성하는 공간!
+        document.getElementById("btn1").addEventListener("click",function(){
+            //배경색은 노란색, 글자색은 파란색 변경!
+            document.getElementById("body1").style.backgroundColor = "yellow";
+            document.getElementById("body1").style.color = "blue"
+        })
+    </script>
+</body>
+</html>

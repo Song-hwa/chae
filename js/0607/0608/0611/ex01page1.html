@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src= "jquery-3.6.0.min.js"> </script>
+</head>
+<body>
+    <div></div>
+    <button onclick = "data()">데이터 가지고오기</button>
+
+    <script>
+        function data(){
+
+           //클릭을 했을때 page2에 있는 정보를 div 태그에 출력. 
+            $.ajax({
+              url : "ex02page2.html",
+              type : "get",
+              success : function(res){
+              //데이터를 잘 받아 왔을때 처리해주는 로직
+              //성공했을 때 function(매개변수)>>넘어온 데이터를 담아주는 공간
+              $("div").html(res)
+              alert("성공입니다");
+
+              },
+              error : function(){
+               //데이터를 받아오지 못했을때 처리해주는 로직
+                alert("실패입니다");              }
+
+            });
+        
+        
+        }
+    </script>
+</body>
+</html>

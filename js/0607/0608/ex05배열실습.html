@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     let list = [1,2,3,4,5,6,7,8,9,10];
+     let list2 = [];
+     let cnt = 0;
+
+     for(let i =0; i<list.length; i ++){
+         
+        if(list[i]%2 ==1){
+            list2[cnt] = list[i];
+            cnt ++;
+         }
+     }
+     alert(list2 +"갯수:"+list2.length)
+
+
+    </script>
+</body>
+</html>
