@@ -1,0 +1,128 @@
+,이름,친화성,털빠짐,집지키기,실내외구분,운동량,체고,체중,크기,거주조건,나이조건
+0,프렌치 불도그 [French Bulldog],m,h,f,io,m,28,11.5,M,ADJ,ALL
+1,풍산개 [Poongsan Dog],l,m,h,o,m,54,25.5,M,DJ,YO
+2,풀리 [Puli],m,l,h,o,h,40,13.5,M,DJ,ALL
+3,포인터 [Pointer],h,m,f,o,h,63,26.5,L,DJ,YO
+4,포메라니안 [Pomeranian],m,m,h,i,m,28,2.3,S,ADJ,ALL
+5,페키니즈 [Pekingese],m,m,m,i,l,20,2.5,S,ADJ,ALL
+6,퍼그 [Pug],m,h,m,i,m,26,7.3,S,ADJ,ALL
+7,파피용 [Papillon],h,m,f,i,m,24,4.3,S,ADJ,ALL
+8,티벳탄 테리어 [Tibetan Terrier],h,h,h,io,h,35,10,M,ADJ,ALL
+9,티벳탄 스파니엘 [Tibetan Spaniel],m,h,f,io,l,25,47,S,ADJ,ALL
+10,티벳탄 마스티프 [Tibetan Mastiff],l,h,h,o,h,64,75,XL,DJ,Y
+11,토이 푸들 [Toy Poodle],h,l,m,i,m,26,23,S,ADJ,ALL
+12,토이 맨체스터 테리어 [Toy Manchester Terrier],l,m,m,i,m,28,35,S,ADJ,ALL
+13,클럼버 스파니엘 [Clumber Spaniel],m,h,m,o,m,50,31.5,M,DJ,ALL
+14,쿠바츠 [Kuvasz],l,m,h,o,h,60,46,L,DJ,YO
+15,콜리 [Collie],m,h,h,o,h,55,25,L,DJ,YO
+16,코카시안 오브차카 [Caucasian Ovtcharka],l,m,h,o,h,67,56,XL,DJ,Y
+17,코몬돌 [Komondor],m,l,h,o,m,63,52.5,L,DJ,Y
+18,케언 테리어 [Cairn Terrier],m,m,m,io,h,27,67,S,ADJ,ALL
+19,케리 블루 테리어 [Kerry Blue Terrier],m,l,h,o,m,49,16.5,M,DJ,ALL
+20,컬리 코티드 리트리버 [Curly Coated Retriever],m,l,m,o,h,65,33.5,L,DJ,ALL
+21,카바리에 킹 찰스 스파니엘 [Cavalier King Charles Spaniel],h,m,f,i,m,31,6,S,ADJ,ALL
+22,치와와 [Chihuahua],m,m,h,i,l,17,3,XS,ADJ,ALL
+23,체사피크 베이 리트리버 [Chesapeake Bay Retriever],h,m,m,o,h,62,31.5,L,DJ,ALL
+24,차이니즈 크레스티드 [Chinese Crested],m,l,f,i,l,28,25,S,ADJ,ALL
+25,차이니즈 샤페이 [Chinese Shar-pei],l,m,m,o,m,49,18.5,M,DJ,Y
+26,차우차우 [Chowchow],l,h,h,o,h,50,25,M,DJ,YO
+27,진돗개 [Jindo Dog],l,m,h,o,m,49,17.5,M,DJ,ALL
+28,제페니스 친 [Japanese Chin],m,m,f,i,l,23,3,S,ADJ,ALL
+29,제페니스 스피츠 [Japanese Spitz],m,h,h,io,m,33,8,M,ADJ,ALL
+30,저먼 와이어헤어드 포인터 [German Wirehaired Pointer],m,m,m,o,h,63,29.5,L,DJ,YO
+31,저먼 쇼트헤어드 포인터 [German Shorthaired Pointer],m,l,f,o,h,61,28.5,L,DJ,YO
+32,저먼 셰퍼드 도그 [German Shepherd Dog],m,h,h,o,h,61,39,L,DJ,YO
+33,잭 러셀 테리어 [Jack Russel Terrier],m,m,m,io,h,30,56,M,ADJ,ALL
+34,자이언트 슈나우저 [Giant Schnauzer],m,m,m,o,h,65,33.5,L,DJ,YO
+35,잉글리시 코카 스파니엘 [English Cocker Spaniel],h,h,m,io,m,39,14,M,ADJ,ALL
+36,잉글리시 스프링거 스파니엘 [English Springer Spaniel],h,m,m,o,h,50,24,M,DJ,ALL
+37,잉글리시 세터 [English Setter],h,h,f,o,h,65,27.5,L,DJ,YO
+38,이탈리안 그레이하운드 [Italian Greyhound],h,m,f,i,h,35,3.5,S,ADJ,ALL
+39,웰시 테리어 [Welsh Terrier],h,h,h,io,h,37,8,M,ADJ,ALL
+40,웰시 코기 [Welsh Corgi],m,h,m,io,h,28,13,M,ADJ,ALL
+41,웨스트 하이랜드 화이트 테리어 [West Highland White Terrier],h,m,h,io,h,27,7.5,M,ADJ,ALL
+42,요크셔 테리어 [Yorkshire Terrier],h,m,h,i,m,23,3.5,S,ADJ,ALL
+43,와이어헤어드 포인팅 그리폰 [Wirehaired Pointing Griffon],m,m,m,o,h,58,25,M,DJ,YO
+44,와이마라너 [Weimaraner],l,m,m,o,h,63,35.5,L,DJ,YO
+45,올드 잉글리시 쉽독 [Old English Sheepdog],h,h,f,o,h,58,29.5,L,DJ,ALL
+46,오스트레일리안 테리어 [Australian Terrier],m,m,h,io,h,25,56,S,ADJ,ALL
+47,에어데일 테리어 [Airedale Terrier],m,l,h,o,h,58,20,L,D,Y
+48,알래스칸 맬러뮤트 [Alaskan Malamute],m,h,h,o,h,62,36.5,L,DJ,Y
+49,아프간 하운드 [Afghan Hound],l,h,f,o,h,70,25,L,DJ,Y
+50,아펜핀셔 [Affenpinscher],l,m,h,i,m,27,34,S,A,ALL
+51,아키타 [Akita],l,h,h,o,h,66,42,L,DJ,Y
+52,아이리쉬 테리어 [Irish Terrier],h,m,h,o,h,45,11.7,M,DJ,YO
+53,아이리쉬 워터 스파니엘 [Irish Water Spaniel],m,l,m,o,h,57,25.5,M,DJ,YO
+54,아이리쉬 울프하운드 [Irish Wolfhound],m,l,m,o,h,83,47.5,XL,DJ,Y
+55,아이리쉬 세터 [Irish Setter],h,h,f,o,h,66,29.5,L,DJ,YO
+56,아메리칸 코카 스파니엘 [American Cocker Spaniel],h,m,m,io,h,37,916,M,ADJ,ALL
+57,실키 테리어 [Silky Terrier],l,m,h,i,m,23,34,S,ADJ,ALL
+58,실리함 테리어 [Sealyham Terrier],l,l,m,io,m,26,9.7,M,ADJ,ALL
+59,시츄 [Shih Tzu],h,m,f,i,m,25,6.3,S,ADJ,ALL
+60,시베리안 허스키 [Siberian Husky],m,h,f,o,h,55,21.5,M,DJ,ALL
+61,시바 이누 [Shiba Inu],l,m,h,o,m,38,914,M,DJ,ALL
+62,스탠더드 푸들 [Standard Poodle],m,l,m,o,m,38,27.5,L,DJ,ALL
+63,스타포드셔 불 테리어 [Staffordshire Bull Terrier],m,m,h,o,h,38,13,M,DJ,YO
+64,스코티시 테리어 [Scottish Terrier],l,l,h,io,m,27,9.6,M,ADJ,ALL
+65,스카이 테리어 [Sky Terrier],l,m,h,o,m,25,11,M,DJ,ALL
+66,소프트 코티드 휘튼 테리어 [Soft-Coated Wheaten Terrier],m,m,m,o,h,47,18,M,DJ,ALL
+67,셰틀랜드 쉽독 [Shetland Sheepdog],m,h,m,o,m,38,812,M,DJ,ALL
+68,세인트 버나드 [Saint Bernard],m,m,h,o,m,65,70,XL,DJ,Y
+69,서섹스 스파니엘 [Sussex Spaniel],m,m,m,o,h,35,19,M,DJ,ALL
+70,삽살개 [Sapsaree],m,m,h,o,m,50,18,M,DJ,ALL
+71,살루키 [Saluki],l,m,f,o,h,65,22,L,DJ,YO
+72,사우스 러시안 오브차카 [South Russian Ovtcharka],l,h,h,o,h,70,60,XL,DJ,Y
+73,사모예드 [Samoyed],h,h,f,o,h,50,26.5,M,DJ,ALL
+74,비즐라 [Vizsla],h,m,m,o,h,61,26,L,DJ,YO
+75,비어디드 콜리 [Bearded Collie],h,h,m,o,h,52,22.5,M,DJ,YO
+76,비숑 프리제 [Bichon Frise],h,l,f,io,m,26,58,S,ADJ,ALL
+77,비글 [Beagle],m,l,m,o,h,35,13,M,DJ,ALL
+78,블러드 하운드 [Bloodhound],m,m,m,o,h,63,42.5,L,DJ,YO
+79,브리타니 [Brittany],m,m,m,o,h,48,15.5,M,DJ,ALL
+80,브리아드 [Briard],m,h,m,o,h,63,35,L,DJ,ALL
+81,브루셀 그리폰 [Brussels Griffon],h,l,f,io,m,19,4,S,ADJ,ALL
+82,불도그 [Bulldog],h,m,f,io,l,33,24,M,ADJ,YO
+83,불 테리어 [Bull Terrier],m,m,h,o,h,53,22.5,M,DJ,YO
+84,불 마스티프 [Bullmastiff],m,m,h,o,h,68,51,XL,DJ,Y
+85,부비에 데 플랑드르 [Bouvier Des Flandres],m,m,h,o,h,64,40,L,DJ,YO
+86,복서 [Boxer],m,l,h,o,h,61,28.5,L,DJ,YO
+87,보스턴 테리어 [Boston Terrier],m,h,f,i,m,33,7.5,M,ADJ,ALL
+88,보르조이 [Borzoi],l,h,m,o,h,75,40,XL,DJ,Y
+89,보더 테리어 [Border Terrier],m,l,m,io,m,26,67,S,ADJ,ALL
+90,보더 콜리 [Border Collie],h,h,h,o,h,51,20.5,M,DJ,ALL
+91,벨지안 쉽도그 터뷰렌 [Belgian Sheepdog Tervuren],m,h,h,o,h,61,28,L,DJ,YO
+92,벨지안 쉽도그 말리노이즈 [Belgian Sheepdog Malinois],m,m,h,o,h,63,28,L,DJ,YO
+93,벨지안 쉽도그 라케노이즈 [Belgian Sheepdog Laekenois],m,m,h,o,h,61,28,L,DJ,YO
+94,벨지안 쉽도그 그로넨달 [Belgian Sheepdog Groenendael],m,h,h,o,h,61,28,L,DJ,YO
+95,베들링턴 테리어 [Bedlington Terrier],m,l,h,io,h,30,710,M,ADJ,ALL
+96,버니즈 마운틴 독 [Bernese Mountain Dog],h,m,m,o,m,64,42,L,DJ,Y
+97,바셋 하운드 [Basset Hound],m,m,f,io,m,65,22.5,M,ADJ,ALL
+98,바센지 [Basenji],l,m,h,io,h,41,911,M,ADJ,YO
+99,미니어처 핀셔 [Miniature Pinscher],l,m,h,i,m,28,44,S,ADJ,ALL
+100,미니어처 푸들 [Miniature Poodle],h,l,m,i,m,31,36,M,ADJ,ALL
+101,미니어처 슈나우저 [Miniature Schnauzer],m,l,h,io,m,30,67,S,ADJ,ALL
+102,몰티즈 [Maltese],h,m,m,i,m,26,23,S,ADJ,ALL
+103,맨체스터 테리어 [Manchester Terrier],m,m,m,o,m,39,57,M,ADJ,ALL
+104,마스티프 [Mastiff],m,m,h,o,h,73,78,XL,DJ,Y
+105,롯트와일러 [Rottweiler],l,m,h,o,h,63,45,L,DJ,Y
+106,로디지안 리즈백 [Rhodesian Ridgeback],m,m,f,o,h,64,31.5,L,DJ,Y
+107,레이크랜드 테리어 [Lakeland Terrier],m,l,m,o,h,35,7,M,DJ,ALL
+108,래브라도 리트리버 [Labrador Retriever],h,m,m,o,h,58,28.5,L,DJ,ALL
+109,라사 압소 [Lhasa Apso],m,m,m,i,l,26,6.3,S,ADJ,ALL
+110,도베르만 핀셔 [Dobermann Pinscher],m,m,h,o,h,68,35,L,DJ,Y
+111,댄디 딘몬트 테리어 [Dandie Dinmont Terrier],m,m,m,io,m,24,811,S,ADJ,ALL
+112,달마티안 [Dalmatian],l,m,m,o,h,55,24,L,DJ,Y
+113,닥스훈트 [Dachshund],m,m,m,io,m,19,5,S,ADJ,ALL
+114,뉴펀들랜드 [Newfoundland],h,m,f,o,h,68,68,XL,DJ,YO
+115,노르포크 테리어 [Norfolk Terrier],m,m,m,io,h,25,5.2,S,ADJ,ALL
+116,노르위치 테리어 [Norwich Terrier],m,l,m,io,h,25,5.2,S,ADJ,ALL
+117,노르웨이언 엘크하운드 [Norwegian Elkhound],m,m,h,o,h,48,20,M,DJ,ALL
+118,기슈 이누 [Kishu Inu],l,m,h,o,h,49,16.5,M,DJ,YO
+119,그레이트 피레니즈 [Great Pyrenees],m,h,m,o,h,73,50,XL,DJ,Y
+120,그레이트 데인 [Great Dane],m,m,h,o,h,73,50,XL,DJ,Y
+121,그레이 하운드 [Grey Hound],m,m,m,o,h,72,29.5,L,DJ,Y
+122,골든 리트리버 [Golden Retriever],h,h,f,o,h,56,31.5,L,D,ALL
+123,휘펫 [Whippet],h,m,f,io,h,51,13,M,ADJ,ALL
+124,핏불 테리어 [America Pit Bull Terrier],h,m,m,io,h,51,29.5,M,ADJ,Y
+125,필드 스파니엘 [Field Spaniel],m,m,f,o,m,46,19,M,DJ,ALL
+126,플랫 코티드 리트리버 [Flat Coated Retriever],h,h,m,o,h,59,29.5,L,DJ,ALL
