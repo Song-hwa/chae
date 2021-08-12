@@ -2,28 +2,29 @@ package day02;
 
 import java.util.Scanner;
 
-public abstract class ex04삼항연산자 {
+public class ex04삼항연산자 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-  //1.스캐너 기능 불러오기
+		//1. 스캐너 불러오기
 		Scanner sc = new Scanner(System.in);
 		
-		//2.첫번째정수입력
-		System.out.print("첫 번째정수를 입력하세요>>");
+		//2. "첫 번째 정수 입력" 문장 불러오기
+		System.out.print("첫 번째 정수 입력 : ");
 		
-		//3.첫번째정수입력받기
-		int num1 = sc.nextInt();
+		//3. 첫 번째 정수 입력
+		int int1 = sc.nextInt();
 		
-		//4.두번째정수 입력
-		System.out.print("두 번째정수를 입력하세요>>");
+		//4. "두 번째 정수 입력" 문장 불러오기
+		System.out.print("두 번째 정수 입력 : ");
 		
-		//5.두번째정수 입력받기
-		int num2 = sc.nextInt();
+		//5. 두 번째 정수 입력
+		int int2 = sc.nextInt();
 		
-		System.out.println(num1>num2?"두수의차는"+(num1-num2):"두수의차는"+(num2-num1));
+		//6. 큰 수에서 작은 수를 빼는 삼항연산자 작성
+		int s1 = int1>int2 ? int1-int2 : int2-int1;
 		
-		
+		//7. 두 수의 차 출력
+		System.out.println("두 수의 차 : "+s1);
 	}
 
 }
